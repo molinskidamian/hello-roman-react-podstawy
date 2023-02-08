@@ -1,0 +1,19 @@
+.nav {
+	&Menu {
+		display: flex;
+		list-style: none;
+
+		&Item {
+			margin-right: 50px;
+		}
+	}
+}
+
+.link {
+	color: #818181;
+	text-decoration: none;
+}
+[aria-current] {
+	// color: orange;
+	font-weight: 700;
+}
