@@ -1,0 +1,14 @@
+.wrapper {
+	padding: 50px 80px;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	// outline: 1px dashed red;
+	width: 60vw;
+	height: 70vh;
+	background-color: #fff;
+	box-shadow: 0 10px 40px -10px rgba(#818181, 0.5);
+	position: fixed;
+}
