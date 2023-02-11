@@ -1,0 +1,17 @@
+.navItem {
+	display: inline-block;
+	margin-right: 50px;
+	list-style: none;
+
+	&Link {
+		text-decoration: none;
+		color: #818181;
+
+		&Active {
+			font-weight: 700;
+		}
+	}
+}
+[aria-current] {
+	font-weight: 700;
+}
